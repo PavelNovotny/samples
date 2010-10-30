@@ -9,6 +9,6 @@ package cz.pn.patterns.builder;
  */
 public class App {
     public static void main (String[] args) {
-        
+       NutritionFacts cocaCola = new NutritionFacts.Builder(330,1).carbohydrate(50).fat(0).salt(1).build(); 
     }
 }
